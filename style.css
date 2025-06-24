@@ -1,0 +1,425 @@
+*{
+    font-family:cursive;
+    padding: 0;
+    margin: 0;
+}
+.social-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: crimson;
+    padding: 5px;
+}
+
+.social-head svg{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    fill:crimson
+}
+.social-head svg:hover{
+    fill: #fff;
+    background-color: crimson;
+    border-radius: 50%;
+}
+.contact a{
+    text-decoration: none;
+    color: crimson;
+    padding: 0 10px;
+    justify-content: flex-start;
+}
+
+header{
+    display: flex;
+    padding: 10px;
+    background-color: crimson;
+    height: 50px;
+    border-bottom: 2px aliceblue solid;
+    
+}
+
+header h1{
+    justify-content: left;
+    color:#fff;
+    font-size: 24px;
+    padding-top: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    
+}
+header li{
+    list-style-type: none;  
+    margin-left: 10px;  
+}
+header ul li a{
+    text-align: center;
+    padding: 10px;
+    color:#fff;
+    text-decoration: none;
+    
+}
+header ul li a:hover{
+    background-color: #fff;
+    color:crimson;
+    font-weight: bold;
+}
+header div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+}
+header div h1{
+    padding-bottom: 10px;
+    font-size: 24px;
+    color: #fff;
+}
+header div img{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+header .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+main{
+    height:100vh;
+    
+    background: url("assets/images/hotel.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main div{
+    background-color: rgba(110, 110, 110, 0.7);
+    text-align: center;
+    height:100vh;
+    
+    color:#fff;
+}
+main div h1{
+    padding-top: 40vh;
+    font-size: 36px;
+}
+main div p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+footer{
+    background-color: crimson;
+    color:#fff;
+    padding: 50px;
+}
+footer .items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.items ul{
+    list-style: none;
+}
+.items li{
+    padding-top: 15px;
+}
+.items p{
+    padding: 10px;
+}
+.items a{
+    color:#fff;
+    text-decoration: none;
+    padding:20px
+}
+.items a:hover{
+    text-decoration: underline;
+}
+iframe{
+    border-radius: 20px;
+}
+
+h2.head{
+    color:crimson;
+    padding: 20px;
+}
+.contents p{
+    padding: 20px;
+}
+.contents{
+    display: flex;
+   align-items: center;
+}
+.contents img{
+    justify-content: space-evenly;
+    
+    border-radius: 20px;
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+.copyright hr{
+    margin-top: 10px;
+}
+.copyright p{
+    padding: 10px;
+}
+
+
+/*Rooms*/
+.heading{
+   
+    text-align: center;
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+}
+.rooms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+} 
+.rooms .room{
+    width: 30%;
+    background-color: rgba(110, 110, 110, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.rooms .room h3{
+    color: crimson;
+    padding-bottom: 10px;
+}
+.rooms .room img{
+    width: 100%;
+    border-radius: 20px;
+}
+.room:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    background: url("assets/images/logo.png");
+}
+.services .service{
+    width: 30%;
+    background-color: rgba(110, 110, 110, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.services .service h3{
+    color: crimson;
+    padding-bottom: 10px;
+}
+.services .service img{
+    width: 100%;
+    border-radius: 20px;
+}
+.service:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.error{
+    text-align: center;
+    padding: 50px;
+    color: crimson;
+    height: 100vh;
+}
+
+.error h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}   
+.error p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}   
+.error a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: crimson;
+    padding: 15px;
+}
+.error a:hover{
+    border:2px solid crimson;
+    background-color: #fff;
+    color: crimson;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.booking-form,.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 40%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+/*responsive booking form*/
+@media (max-width: 768px) {
+    .booking-form,.contact-form {
+        width: 80%;
+    }
+}
+.booking-form h2{
+    color: crimson;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+.booking-form input,
+.booking-form select,
+.booking-form textarea,
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking-form button,.contact-form button {
+    background-color: crimson;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.booking-form button:hover,.contact-form button:hover {
+    background-color: #fff;
+    color: crimson;
+    border: 2px solid crimson;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.service-box h2{
+    background-color: crimson;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.service-box-contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: auto;
+}
+.service-box-contents .service-box-content{
+    width: 30%;
+    background-color: rgba(110, 110, 110, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.service-box-content:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.service-box-content img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.menu-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: auto;
+}
+.menu-box .menu-item{
+    width: 30%;
+    background-color: rgba(110, 110, 110, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.menu-box .menu-item h3{
+    color: crimson;
+    padding-bottom: 10px;
+}
+.menu-box .menu-item img{
+    width: 100%;
+    border-radius: 20px;
+}
+.menu-item:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.menu-head{
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.about{
+    min-height: 100vh;
+    background: url("assets/images/hotel.jpg");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.about h1{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background-color: crimson;
+}
+.about p{
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(110, 110, 110, 0.7);
+    margin: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    font-size: 19px;
+}
+
+.contact-us h2{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background-color: crimson;
+}
