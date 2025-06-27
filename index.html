@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
     <meta name="description" content="Welcome to Gokul Hotel, where tradition meets hospitality. Enjoy our luxurious rooms, exquisite dining, and exceptional services. Book your stay today!">
+    <!-- Add AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -60,7 +62,7 @@
     <main>
         <section id="Home">
             <div>
-                <h1>Welcome To Gokul Hotel</h1>
+                <h1  data-aos="fade-up">Welcome To Gokul Hotel</h1>
                 <p>
                     Tradition meets Hospitality
                 </p>
@@ -75,19 +77,19 @@
     </h1>
     <div class="rooms">
 
-        <div class="room">
+        <div class="room" data-aos="fade-up">
             <img src="assets/images/Exclusive-Rooms.png" alt="Room 1">
             <h3>Deluxe Room</h3>
             <p>Experience luxury with our Deluxe Room, featuring modern amenities and stunning views.</p>
         </div>
 
-        <div class="room">
+        <div class="room" data-aos="fade-up">
             <img src="assets/images/Exclusive-Rooms-2.png" alt="Room 2">
             <h3>Exclusive Room</h3>
             <p>Experience luxury with our Exclusive Room, featuring modern amenities and stunning views.</p>
         </div>
 
-        <div class="room">
+        <div class="room" data-aos="fade-up">
             <img src="assets/images/best-view.png" alt="Room 3">
             <h3>Best View Room</h3>
             <p>Experience luxury with our Best View Room, featuring modern amenities and stunning views.</p>
@@ -98,12 +100,12 @@
         Our Services
     </h1>
     <div class="services">
-        <div class="service">
+        <div class="service" data-aos="flip-left">
             <img src="assets/images/room-service.png" alt="Food Service">
             <h3>Food Service</h3>
             <p>Enjoy 24/7 food service with a wide range of delicious food and beverages.</p>
         </div>
-        <div class="service">
+        <div class="service" data-aos="flip-left">
             <img src="assets/images/room-service-2.png" alt="Room Service">
             <h3>Room Service</h3>
             <p>Enjoy 24/7 room cleaning service with hygiene.</p>
@@ -165,9 +167,13 @@
 
             <hr>
             <p>&copy; 2025 Gokul Hotel. All rights reserved.</p>
-        </div>
-
-    </footer>
+</footer>
+<!-- Add AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
+

@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
     <meta name="description" content="Explore the services offered by Gokul Hotel, including room booking, restaurant, and spa. Enjoy a comfortable stay with us.">
+     <!-- Add AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -61,17 +63,17 @@
     <div class="service-box">
         <h2>Our Services</h2>
         <div class="service-box-contents">
-            <div class="service-box-content">
+            <div class="service-box-content" data-aos="flip-left">
                 <img src="assets/images/bookings.png" alt="Service 1">
                 <h3>Room Booking</h3>
                 <p>Book your stay with us and enjoy a comfortable experience.</p>
             </div>
-            <div class="service-box-content">
+            <div class="service-box-content" data-aos="flip-left">
                 <img src="assets/images/service2.png" alt="Service 2">
                 <h3>Restaurant</h3>
                 <p>Enjoy delicious meals at our in-house restaurant.</p>
             </div>
-            <div class="service-box-content">
+            <div class="service-box-content" data-aos="flip-left">
                 <img src="assets/images/spa.png" alt="Service 3">
                 <h3>Spa</h3>
                 <p>Relax and rejuvenate at our luxurious spa.</p>
@@ -81,17 +83,17 @@
     <h2 class="menu-head">Our Menu</h2>
     <div class="menu-box">
         
-        <div class="menu-item">
+        <div class="menu-item" data-aos="flip-left">
             <img src="assets/images/menu-1.png" alt="Menu Item 1">
             <h3>Breakfast</h3>
             <p>Start your day with a delicious breakfast.</p>
         </div>
-        <div class="menu-item">
+        <div class="menu-item" data-aos="flip-left">
             <img src="assets/images/menu-2.png" alt="Menu Item 2">
             <h3>Lunch</h3>
             <p>Enjoy a hearty lunch with a variety of options.</p>
         </div>
-        <div class="menu-item">
+        <div class="menu-item" data-aos="flip-left">
             <img src="assets/images/menu-3.png" alt="Menu Item 3">
             <h3>Dinner</h3>
             <p>Indulge in a fine dining experience for dinner.</p>
@@ -156,6 +158,12 @@
         </div>
 
     </footer>
+
+    <!-- Add AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
